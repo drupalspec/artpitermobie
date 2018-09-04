@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fa.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <header>
+            <div class="logo"><img src="img/logo_top.png" alt=""></div>
+            <nav>
+                <div class="toggle">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="#">женская коллекция</a></li>
+                    <li><a href="#">Мужская коллекция</a></li>
+                    <li><a href="#">аксессуары</a></li>
+                    <li><a href="#">о бренде</a></li>
+                    <li><a href="#">коллекции</a></li>
+                    <li><a href="#">магазин</a></li>
+                    <li><a href="#">контакты </a></li>    
+                </ul>
+                <ul class="social">
+                    <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <div class="cart">
+                    <a href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>34</span>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <div class="breadcrumbs">Оформление</div>
+        <section class="checkout">
+            <h2>Корзина</h2>
+            <form action="/ru/checkout/72" method="post" id="commerce-checkout-form-checkout" accept-charset="UTF-8">
+               <div>
+                  <div class="cart_contents form-wrapper" id="edit-cart-contents">
+                     <div class="view view-commerce-cart-summary view-id-commerce_cart_summary view-display-id-default view-dom-id-65da90606809ecef9164fc3471b3f73f jquery-once-1-processed">
+                        <div class="view-content">
+                           <table class="views-table cols-3">
+                              <thead>
+                                 <tr>
+                                    <th class="views-field views-field-line-item-title" scope="col">
+                                       Корзина          
+                                    </th>
+                                    <th class="views-field views-field-quantity" scope="col">
+                                       Товары          
+                                    </th>
+                                    <th class="views-field views-field-commerce-total views-align-right" scope="col">
+                                       Итого          
+                                    </th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr class="odd views-row-first">
+                                    <td class="views-field views-field-line-item-title">
+                                       Толстовка (L)          
+                                    </td>
+                                    <td class="views-field views-field-quantity">
+                                       1          
+                                    </td>
+                                    <td class="views-field views-field-commerce-total views-align-right price">
+                                       5&nbsp;500&nbsp;₽          
+                                    </td>
+                                 </tr>
+                                 <tr class="even">
+                                    <td class="views-field views-field-line-item-title">
+                                       Рукава митенки, короткие (S)          
+                                    </td>
+                                    <td class="views-field views-field-quantity">
+                                       1          
+                                    </td>
+                                    <td class="views-field views-field-commerce-total views-align-right price">
+                                       3&nbsp;700&nbsp;₽          
+                                    </td>
+                                 </tr>
+                                 <tr class="odd views-row-last">
+                                    <td class="views-field views-field-line-item-title">
+                                       Пальто из трикотажа под замшу (L)          
+                                    </td>
+                                    <td class="views-field views-field-quantity">
+                                       1          
+                                    </td>
+                                    <td class="views-field views-field-commerce-total views-align-right price">
+                                       6&nbsp;700&nbsp;₽          
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                        <div class="view-footer">
+                           <div class="commerce-order-handler-area-order-total">
+                              <div class="field field-name-commerce-order-total field-type-commerce-price field-label-hidden">
+                                 <div class="field-items">
+                                    <div class="field-item even">
+                                       <table class="commerce-price-formatted-components">
+                                          <tbody>
+                                             <tr class="component-type-commerce-price-formatted-amount odd">
+                                                <td class="component-title">Итого к оплате</td>
+                                                <td class="component-total">15&nbsp;900&nbsp;₽</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="commerce-shipping-service-ajax-wrapper">
+                     <fieldset class="commerce_shipping form-wrapper" id="edit-commerce-shipping">
+                        <legend><span class="fieldset-legend">Доставка</span></legend>
+                        <div class="fieldset-wrapper">
+                           <input type="submit" id="edit-commerce-shipping-recalculate" name="op" value="Recalculate shipping" class="form-submit ajax-processed" style="display: none;">
+                           <div id="edit-commerce-shipping-shipping-service" class="form-radios">
+                              <div class="form-item form-type-radio form-item-commerce-shipping-shipping-service">
+                                 <input type="radio" id="edit-commerce-shipping-shipping-service-courier" name="commerce_shipping[shipping_service]" value="courier" checked="checked" class="form-radio ajax-processed">  <label class="option" for="edit-commerce-shipping-shipping-service-courier">Курьером по городу СПБ: 250&nbsp;₽ </label>
+                              </div>
+                              <div class="form-item form-type-radio form-item-commerce-shipping-shipping-service">
+                                 <input type="radio" id="edit-commerce-shipping-shipping-service-ems" name="commerce_shipping[shipping_service]" value="ems" class="form-radio ajax-processed">  <label class="option" for="edit-commerce-shipping-shipping-service-ems">EMS по РФ: 500&nbsp;₽ </label>
+                              </div>
+                              <div class="form-item form-type-radio form-item-commerce-shipping-shipping-service">
+                                 <input type="radio" id="edit-commerce-shipping-shipping-service-local-post" name="commerce_shipping[shipping_service]" value="local_post" class="form-radio ajax-processed">  <label class="option" for="edit-commerce-shipping-shipping-service-local-post">Почта Росии: 500&nbsp;₽ </label>
+                              </div>
+                              <div class="form-item form-type-radio form-item-commerce-shipping-shipping-service">
+                                 <input type="radio" id="edit-commerce-shipping-shipping-service-pickup" name="commerce_shipping[shipping_service]" value="pickup" class="form-radio ajax-processed">  <label class="option" for="edit-commerce-shipping-shipping-service-pickup">Самовывоз из шоурума: 0&nbsp;₽ </label>
+                                 <div class="description">(Санкт-Петербург, ул. Рубинштейна 23</div>
+                              </div>
+                           </div>
+                           <div id="commerce-shipping-service-details">
+                              <div id="edit-commerce-shipping-service-details" class="form-wrapper"></div>
+                           </div>
+                        </div>
+                     </fieldset>
+                  </div>
+                  <fieldset class="customer_profile_shipping form-wrapper" id="edit-customer-profile-shipping">
+                     <legend><span class="fieldset-legend">Контактная информация</span></legend>
+                     <div class="fieldset-wrapper">
+                        <div class="field-type-text field-name-field-first-name field-widget-text-textfield form-wrapper" id="edit-customer-profile-shipping-field-first-name">
+                           <div id="customer-profile-shipping-field-first-name-add-more-wrapper">
+                              <div class="form-item form-type-textfield form-item-customer-profile-shipping-field-first-name-und-0-value">
+                                 <label for="edit-customer-profile-shipping-field-first-name-und-0-value">Имя <span class="form-required" title="Обязательное поле">*</span></label>
+                                 <input class="text-full form-text required shipping-recalculation-processed" type="text" id="edit-customer-profile-shipping-field-first-name-und-0-value" name="customer_profile_shipping[field_first_name][und][0][value]" value="" size="60" maxlength="255">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="field-type-text field-name-field-second-name field-widget-text-textfield form-wrapper" id="edit-customer-profile-shipping-field-second-name">
+                           <div id="customer-profile-shipping-field-second-name-add-more-wrapper">
+                              <div class="form-item form-type-textfield form-item-customer-profile-shipping-field-second-name-und-0-value">
+                                 <label for="edit-customer-profile-shipping-field-second-name-und-0-value">Фамилия </label>
+                                 <input class="text-full form-text shipping-recalculation-processed" type="text" id="edit-customer-profile-shipping-field-second-name-und-0-value" name="customer_profile_shipping[field_second_name][und][0][value]" value="" size="60" maxlength="255">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="field-type-email field-name-field-email field-widget-email-textfield form-wrapper" id="edit-customer-profile-shipping-field-email">
+                           <div id="customer-profile-shipping-field-email-add-more-wrapper">
+                              <div class="text-full-wrapper">
+                                 <div class="form-item form-type-textfield form-item-customer-profile-shipping-field-email-und-0-email">
+                                    <label for="edit-customer-profile-shipping-field-email-und-0-email">E-mail <span class="form-required" title="Обязательное поле">*</span></label>
+                                    <input type="text" id="edit-customer-profile-shipping-field-email-und-0-email" name="customer_profile_shipping[field_email][und][0][email]" value="" size="60" maxlength="128" class="form-text required shipping-recalculation-processed">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="field-type-text field-name-field-phone field-widget-text-textfield form-wrapper" id="edit-customer-profile-shipping-field-phone">
+                           <div id="customer-profile-shipping-field-phone-add-more-wrapper">
+                              <div class="form-item form-type-textfield form-item-customer-profile-shipping-field-phone-und-0-value">
+                                 <label for="edit-customer-profile-shipping-field-phone-und-0-value">Phone </label>
+                                 <input class="text-full form-text shipping-recalculation-processed" type="text" id="edit-customer-profile-shipping-field-phone-und-0-value" name="customer_profile_shipping[field_phone][und][0][value]" value="" size="60" maxlength="255">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="field-type-text-long field-name-field-address field-widget-text-textarea form-wrapper" id="edit-customer-profile-shipping-field-address">
+                           <div id="customer-profile-shipping-field-address-add-more-wrapper">
+                              <div class="form-item form-type-textarea form-item-customer-profile-shipping-field-address-und-0-value">
+                                 <label for="edit-customer-profile-shipping-field-address-und-0-value">Address </label>
+                                 <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                                    <textarea class="text-full form-textarea" id="edit-customer-profile-shipping-field-address-und-0-value" name="customer_profile_shipping[field_address][und][0][value]" cols="60" rows="5"></textarea>
+                                    <div class="grippie"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="field-type-text-long field-name-field-comments field-widget-text-textarea form-wrapper" id="edit-customer-profile-shipping-field-comments">
+                           <div id="customer-profile-shipping-field-comments-add-more-wrapper">
+                              <div class="form-item form-type-textarea form-item-customer-profile-shipping-field-comments-und-0-value">
+                                 <label for="edit-customer-profile-shipping-field-comments-und-0-value">Comments </label>
+                                 <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                                    <textarea class="text-full form-textarea" id="edit-customer-profile-shipping-field-comments-und-0-value" name="customer_profile_shipping[field_comments][und][0][value]" cols="60" rows="5"></textarea>
+                                    <div class="grippie"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </fieldset>
+                  <fieldset class="commerce_payment form-wrapper" id="edit-commerce-payment">
+                     <legend><span class="fieldset-legend">Способ оплаты</span></legend>
+                     <div class="fieldset-wrapper">
+                        <div id="edit-commerce-payment-payment-method" class="form-radios">
+                           <div class="form-item form-type-radio form-item-commerce-payment-payment-method">
+                              <input type="radio" id="edit-commerce-payment-payment-method-commerce-codcommerce-payment-commerce-cod" name="commerce_payment[payment_method]" value="commerce_cod|commerce_payment_commerce_cod" checked="checked" class="form-radio ajax-processed">  <label class="option" for="edit-commerce-payment-payment-method-commerce-codcommerce-payment-commerce-cod">Оплата наложенным платежом </label>
+                           </div>
+                           <div class="form-item form-type-radio form-item-commerce-payment-payment-method">
+                              <input type="radio" id="edit-commerce-payment-payment-method-in-personcommerce-payment-in-person" name="commerce_payment[payment_method]" value="in_person|commerce_payment_in_person" class="form-radio ajax-processed">  <label class="option" for="edit-commerce-payment-payment-method-in-personcommerce-payment-in-person">Оплата наличными курьеру при получении заказа </label>
+                           </div>
+                        </div>
+                        <div id="payment-details"><input type="hidden" name="commerce_payment[payment_details][transaction]" value="dummy_value"></div>
+                     </div>
+                  </fieldset>
+                  <fieldset class="terms_conditions form-wrapper" id="edit-terms-conditions">
+                     <legend><span class="fieldset-legend">пользовательским соглашением</span></legend>
+                     <div class="fieldset-wrapper">
+                        <div class="form-item form-type-checkbox form-item-terms-conditions-commerce-agree-terms-pane-field">
+                           <input type="checkbox" id="edit-terms-conditions-commerce-agree-terms-pane-field" name="terms_conditions[commerce_agree_terms_pane_field]" value="1" class="form-checkbox required">  <label class="option" for="edit-terms-conditions-commerce-agree-terms-pane-field">Даю своё согласие на обработку персональных данных в соответствии с <a href="/ru/node/20" target="_blank">пользовательским соглашением</a> <span class="form-required" title="Обязательное поле">*</span></label>
+                        </div>
+                     </div>
+                  </fieldset>
+                  <div class="cvp-order_total_pane-commerce_checkout_pane_1 form-wrapper" id="edit-cvp-order-total-pane-commerce-checkout-pane-1">
+                     <div class="commerce-views-pane-view-content-wrapper">
+                        <h3 class="commerce-views-pane-view-title">Итого к оплате</h3>
+                        <div class="commerce-views-pane-view-content">
+                           <div class="view view-order-total-pane view-id-order_total_pane view-display-id-commerce_checkout_pane_1 view-dom-id-83c0b6e3bd75ffca1767ed7754578e0a">
+                              <div class="view-content">
+                                 <div class="views-row views-row-1 views-row-odd views-row-first">
+                                    <div class="views-field views-field-commerce-total">
+                                       <span class="views-label views-label-commerce-total">Total amount: </span>    
+                                       <div class="field-content price">5&nbsp;500&nbsp;₽</div>
+                                    </div>
+                                 </div>
+                                 <div class="views-row views-row-2 views-row-even">
+                                    <div class="views-field views-field-commerce-total">
+                                       <span class="views-label views-label-commerce-total">Total amount: </span>    
+                                       <div class="field-content price">3&nbsp;700&nbsp;₽</div>
+                                    </div>
+                                 </div>
+                                 <div class="views-row views-row-3 views-row-odd views-row-last">
+                                    <div class="views-field views-field-commerce-total">
+                                       <span class="views-label views-label-commerce-total">Total amount: </span>    
+                                       <div class="field-content price">6&nbsp;700&nbsp;₽</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="view-footer">
+                                 <div class="commerce-order-handler-area-order-total">
+                                    <div class="field field-name-commerce-order-total field-type-commerce-price field-label-hidden">
+                                       <div class="field-items">
+                                          <div class="field-item even">
+                                             <table class="commerce-price-formatted-components">
+                                                <tbody>
+                                                   <tr class="component-type-commerce-price-formatted-amount odd">
+                                                      <td class="component-title">Итого к оплате</td>
+                                                      <td class="component-total">16150 ₽</td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <fieldset class="checkout-buttons form-wrapper" id="edit-buttons">
+                     <div class="fieldset-wrapper"><input class="checkout-continue form-submit checkout-processed" type="submit" id="edit-continue" name="op" value="Оформить заказ"><span class="checkout-processing element-invisible"></span><span class="button-operator">или</span><input class="checkout-cancel form-submit" type="submit" id="edit-cancel" name="op" value="Отменить"></div>
+                  </fieldset>
+                  <input type="hidden" name="form_build_id" value="form-La1rTV7k0pxWae9KMeEKNMTCSs9MR3kl3iNzcP7WO4k">
+                  <input type="hidden" name="form_id" value="commerce_checkout_form_checkout">
+               </div>
+            </form>
+        </section>
+        <footer>
+            <div class="title">A R T P I T E R</div>
+            <ul class="first-menu">
+                <li><a href="#">О бренде</a></li>
+                <li><a href="#">Реклама</a></li>
+                <li><a href="#">Пресса</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Back stage</a></li>
+            </ul>
+            <div class="title">Клиентский отдел</div>
+            <ul class="second-menu">
+                <li><a href="#">Доставка и возврат</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Часто задаваемые вопросы</a></li>
+            </ul>
+            <div class="title">Контакты</div>
+            <ul class="menu-icons">
+                <li><a href="#"><i class="fas fa-phone-volume"></i></a></li>
+                <li><a href="#"><i class="far fa-envelope-open"></i></a></li>
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+            </ul>
+            <ul class="social">
+                <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <a href="#top" class="go-to-top"><img src="img/totop.png" alt=""></a>
+            <div class="copyring">©2018 ARTPITER - All rights reserved</div>
+            <div class="autor">сделано в seenta-plus</div>
+        </footer>
+    </div>
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+                // Fix ajax checkout total value
+                function getLabelValue(data) {
+                  let getLabel = $(data).parent()[0];
+                  getLabel = getLabel.getElementsByTagName("label")[0].innerHTML;
+                  return getLabel.replace(/\D/g,'');
+                }
+
+                let defaultDelivertPrice = getLabelValue($('.commerce_shipping input[type="radio"]')[0]);
+                let getOrderTotal = document.getElementsByClassName("component-total")[1].innerHTML.replace(/\D/g,'');
+
+                document.getElementsByClassName("component-total")[1].innerHTML = parseInt(getOrderTotal) + parseInt(defaultDelivertPrice) + ' ₽';
+
+
+
+                $('.commerce_shipping input[type="radio"]').change(function() {
+                  let deliveryPrice = getLabelValue(this);
+                  document.getElementsByClassName("component-total")[0].innerHTML = parseInt(getOrderTotal) + parseInt(deliveryPrice) + ' ₽';
+                   document.getElementsByClassName("component-total")[1].innerHTML = parseInt(getOrderTotal) + parseInt(deliveryPrice) + ' ₽';
+                });
+              });
+    </script>
+</body>
+</html>

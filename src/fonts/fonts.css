@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'LetoSans-Bold';
+  src: url('LetoSans-Bold.eot?#iefix') format('embedded-opentype'),  url('LetoSans-Bold.otf')  format('opentype'),
+	     url('LetoSans-Bold.woff') format('woff'), url('LetoSans-Bold.ttf')  format('truetype'), url('LetoSans-Bold.svg#LetoSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'LetoSans';
+  src: url('LetoSans.eot?#iefix') format('embedded-opentype'),  url('LetoSans.woff') format('woff'), url('LetoSans.ttf')  format('truetype'), url('LetoSans.svg#LetoSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Code-Pro-Demo';
+  src: url('Code-Pro-Demo.eot?#iefix') format('embedded-opentype'),  url('Code-Pro-Demo.otf')  format('opentype'),
+	     url('Code-Pro-Demo.woff') format('woff'), url('Code-Pro-Demo.ttf')  format('truetype'), url('Code-Pro-Demo.svg#Code-Pro-Demo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
